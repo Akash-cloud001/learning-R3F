@@ -51,5 +51,6 @@ The template contains a boilerplate project with a basic scene, including sphere
 
 In the Drei Directory, we explored react-three-drei, a collection of helpful pre-written helper functions for react-three-fiber. These utilities simplify common tasks and enhance the development experience.
 
+To install react drei in the project use this command: `npm install @react-three/drei`
 
 ![image](https://github.com/user-attachments/assets/032c1a2e-8fd0-402e-afed-9a9ac9f481aa)
