@@ -1,10 +1,12 @@
 import './App.css'
 import { Canvas }  from "@react-three/fiber"
 import Experience from './components/Experience'
+import {Leva} from 'leva'
 const App = ()=>{
   return (
     <>
     <section id='canvas-container'>
+      <Leva collapsed/>
       <Canvas 
         camera={
           {
