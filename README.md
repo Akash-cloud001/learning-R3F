@@ -15,6 +15,8 @@
 - Template
 
 - Drei Directory
+  
+- Debug and Performance
 
 ### Installation
 
@@ -54,3 +56,13 @@ In the Drei Directory, we explored react-three-drei, a collection of helpful pre
 To install react drei in the project use this command: `npm install @react-three/drei`
 
 ![image](https://github.com/user-attachments/assets/032c1a2e-8fd0-402e-afed-9a9ac9f481aa)
+
+### Lesson 4: DEBUG & PERFORMANCE
+
+#### Debugging with Leva
+In React development, using strict.mode can handle many debugging scenarios. When it comes to debugging in react-three-fiber (R3F), there are several useful tools available. For this lesson, we'll use Leva to tweak geometries and other scene parameters. Leva provides an intuitive interface for real-time adjustments, making it easier to fine-tune your 3D scenes.
+
+#### Monitoring with R3F-Perf
+For monitoring performance, traditional solutions like stats.js are still viable. However, in this lesson, we'll utilize R3F-Perf. R3F-Perf offers a wealth of information, including drawn points, memory usage, GPU usage, time to render the scene, and more. This comprehensive tool is invaluable for gaining insights into your scene's performance and ensuring smooth and efficient rendering.
+
+![image](https://github.com/user-attachments/assets/39a0a672-9863-44db-8b3a-d5c8f3bcf61f)
