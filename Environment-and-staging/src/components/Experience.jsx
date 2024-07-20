@@ -6,6 +6,8 @@ const Experience = () => {
   return (
     <>
       <Perf position="top-left"/>
+      <color args={ ['ivory']}  attach='background'/>
+
       <OrbitControls />
       <directionalLight position={[1,2,3]} intensity={1.5}/>
       <ambientLight intensity={1.5}/>
