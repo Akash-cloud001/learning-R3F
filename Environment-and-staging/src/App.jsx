@@ -19,7 +19,7 @@ const App = ()=>{
     <>
     <section id='canvas-container'>
       <Canvas 
-        shadows
+        shadows={false}
         camera={
           {
             fov: 45, // in orthogrphic camera fov doesn't  work
